@@ -1,0 +1,147 @@
+class ClotTextsRu {
+  ClotTextsRu._();
+
+  static const Map<String, String> translations = {
+    // Headings
+    'singIn': 'Войти',
+    'sentEmailText': 'Мы отправили вам письмо для сброса пароля.',
+    'forgotPasswordHeading': 'Забыли пароль',
+    'createAccountHeading': 'Создать аккаунт',
+    'tellUsAboutYourSelf': 'Расскажите о себе',
+
+    'dontHaveAccount': "Нет аккаунта?",
+    'forgotPassword': "Забыли пароль?",
+    'alreadyHaveAnAccount': "Уже есть аккаунт",
+    'whoDoYouShopFor': "Для кого вы покупаете?",
+    'howOldAreYou': "Сколько вам лет?",
+    'categories': "Категории",
+    'newIn': "Новинки",
+    'topSelling': "Лучшие продажи",
+
+    // Categories
+    'hoodies': "Худи",
+    'shorts': "Шорты",
+    'shoes': "Обувь",
+    'bag': "Сумка",
+    'accessories': "Аксессуары",
+    'shopByCategories': "Покупать по категориям",
+
+    // Button texts
+    'buttonContinueText': 'Продолжить',
+    'buttonAppleText': 'Продолжить с Apple',
+    'buttonGoogleText': 'Продолжить с Google',
+    'buttonFacebookText': 'Продолжить с Facebook',
+    'returnToLogin': 'Вернуться к входу',
+    'createOne': 'Создать',
+    'reset': 'Сбросить',
+    'finish': 'Завершить',
+    'seeAll': 'Посмотреть все',
+
+    // TextField hint texts
+    'emailAddressText': 'Электронная почта',
+    'emailAddressEnterText': 'Введите электронную почту',
+    'passwordText': 'Пароль',
+    'firstNameText': 'Имя',
+    'lastNameText': 'Фамилия',
+    'search': 'Поиск',
+
+    // DropDown texts
+    'ageRange': "Возраст",
+    'age18To25': "18-25",
+    'age26To35': "26-35",
+    'men': "Мужчины",
+    'woman': "Женщины",
+    'kids': "Дети",
+
+    // Product texts
+    'jacket': "Мужская куртка Harrington",
+    'jacketPrice': "\$148.00",
+    'salePrice': "\$220.00",
+    'slides': "Слайды Max Cirro для мужчин",
+    'slidesPrice': "\$55.00",
+    'slidesPriceSale': "\$55.00",
+
+    // Notification texts
+    'notification': "Уведомления",
+    'noNotification': "Нет уведомлений",
+    'exploreCategories': "Изучить категории",
+    'notificationMessage1': "Гилберт, вы разместили заказ, проверьте \nисторию заказов для подробностей",
+    'notificationMessage2': "Гилберт, спасибо за покупки у нас, мы\n отменили заказ #24568.",
+    'notificationMessage3': "Гилберт, ваш заказ #24568 был \nподтверждён, проверьте историю заказов для подробностей",
+
+    // Orders texts
+    'orders': "Заказы",
+    'noOrders': "Нет заказов",
+    'processing': "В обработке",
+    'shipped': "Отправлено",
+    'delivered': "Доставлено",
+    'returned': "Возвращено",
+    'canceled': "Отменено",
+    'order1': "Заказ #456765",
+    'order2': "Заказ #454569",
+    'order3': "Заказ #454809",
+    'shippingDetails': "Детали доставки",
+    'detailAddress': '2715 Ash Dr. Сан-Хосе, Южная Дакота 83475',
+    'detailPhone': '121-224-7890',
+    'orderConfirmed': 'Заказ подтверждён',
+    'orderPlaced': 'Заказ размещён',
+    'orderItems': 'Товары в заказе',
+
+    // Profile texts
+    'userFullName': "Исфандийор Мадаминов",
+    'userEmail': "isfanidyormadaminov12@gmail.com",
+    'userPhoneNumber': "+998 (77) 777 77 77",
+    'address': "Адрес",
+    'addAddress': "Добавить адрес",
+    'wishlist': "Список желаемого",
+    'payment': "Оплата",
+    'help': "Помощь",
+    'support': "Поддержка",
+    'signOut': "Выйти",
+    'addressDetail': "2715 Ash Dr. Сан-Хосе, Южная Дакота 83475",
+    'streetAddress': "Улица",
+    'enterStreetAddress': 'Введите адрес улицы',
+    'city': "Город",
+    'enterCity': 'Введите город',
+    'state': "Штат",
+    'enterState': 'Введите штат',
+    'zipCode': "Почтовый индекс",
+    'enterZipCode': 'Введите почтовый индекс',
+    'save': 'Сохранить',
+
+    'addCard': 'Добавить карту',
+    'cardNumber': "Номер карты",
+    'enterCardNumber': 'Введите номер карты',
+    'ccv': 'CCV',
+    'enterCCV': 'Введите код безопасности карты',
+    'exp': 'Срок действия',
+    'enterExp': 'Введите срок действия карты',
+    'cardholderName': 'Имя владельца карты',
+    'enterCardholderName': 'Введите имя владельца карты',
+
+    'cards': 'Карты',
+    'paypal': 'Paypal',
+    'myFavourite': 'Мои избранные',
+    'tShirt': 'Футболки',
+    'noSearchMatch': "Извините, мы не нашли подходящих результатов по вашему запросу.",
+
+    'cart': 'Корзина',
+    'emptyCart': 'Ваша корзина пуста',
+
+    'removeAll': "Удалить все",
+    'subtotal': "Промежуточный итог",
+    'shippingCost': "Стоимость доставки",
+    'tax': "Налог",
+    'total': "Итого",
+    'enterCouponCode': "Введите код купона",
+    'checkout': "Оформить заказ",
+    'placeOrder': "Оформить заказ",
+    'shippingAddress': "Адрес доставки",
+    'paymentMethod': "Способ оплаты",
+    'addShippingAddress': "Добавить адрес доставки",
+    'addPaymentMethod': "Добавить способ оплаты",
+    'orderPlacedSuccessfully': "Заказ успешно размещён",
+    'receiveEmail': "Вы получите подтверждение на почту",
+    'seeOrderDetails': "Посмотреть детали заказа",
+  };
+}
